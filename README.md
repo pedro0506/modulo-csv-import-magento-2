@@ -20,17 +20,16 @@ Após a criação da tabela você deve editar o arquivo "CrwaImport.php" localiz
 
 Entre a linha 7 e a linha 13 é a construção das colunas da tabela onde você deverá editar de acordo com sua CSV.
 
-<code>class CrwaImport extends \Magento\ImportExport\Model\Import\Entity\AbstractEntity
-    
+<code>class CrwaImport extends \Magento\ImportExport\Model\Import\Entity\AbstractEntity  
 {
     
-    const ID = 'coluna_1';
+    const COL1 = 'coluna_1';
     
-    const ORIGEM = 'coluna_2';
+    const COL2 = 'coluna_2';
     
-    const DESTINO = 'coluna_3';
+    const COL3 = 'coluna_3';
     
-    const ALIQUOTA = 'coluna_4';
+    const COL4 = 'coluna_4';
     
     /* quantas colunas forem necessárias */
     
