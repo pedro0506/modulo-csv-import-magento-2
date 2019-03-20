@@ -1,4 +1,4 @@
-<h1>Módulo Importar CSV para Magento 2</h1>
+<h1>EXEMPLO: Módulo Importar CSV para Magento 2</h1>
 
 Módulo compatível com versões a partir de 2.x
 
